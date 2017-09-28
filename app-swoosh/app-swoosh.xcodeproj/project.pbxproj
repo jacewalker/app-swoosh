@@ -37,6 +37,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		030A02E91F7CD2210061F669 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				033417931F7BB93B00F7CBA6 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		030A02EA1F7CD2260061F669 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		033417851F7BB93B00F7CBA6 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +71,10 @@
 		033417901F7BB93B00F7CBA6 /* app-swoosh */ = {
 			isa = PBXGroup;
 			children = (
-				033417A31F7BBD5700F7CBA6 /* Views */,
+				030A02EA1F7CD2260061F669 /* Model */,
+				030A02E91F7CD2210061F669 /* Controller */,
+				033417A31F7BBD5700F7CBA6 /* View */,
 				033417911F7BB93B00F7CBA6 /* AppDelegate.swift */,
-				033417931F7BB93B00F7CBA6 /* ViewController.swift */,
 				033417951F7BB93B00F7CBA6 /* Main.storyboard */,
 				033417981F7BB93B00F7CBA6 /* Assets.xcassets */,
 				0334179A1F7BB93B00F7CBA6 /* LaunchScreen.storyboard */,
@@ -67,12 +83,12 @@
 			path = "app-swoosh";
 			sourceTree = "<group>";
 		};
-		033417A31F7BBD5700F7CBA6 /* Views */ = {
+		033417A31F7BBD5700F7CBA6 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				033417A41F7BBDC300F7CBA6 /* BorderButton.swift */,
 			);
-			path = Views;
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
