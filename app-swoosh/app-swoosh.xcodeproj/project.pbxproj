@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		030A02EC1F7CD3FE0061F669 /* LeagueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030A02EB1F7CD3FE0061F669 /* LeagueVC.swift */; };
+		030A02EE1F7CD40F0061F669 /* SkillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030A02ED1F7CD40F0061F669 /* SkillVC.swift */; };
 		033417921F7BB93B00F7CBA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033417911F7BB93B00F7CBA6 /* AppDelegate.swift */; };
 		033417941F7BB93B00F7CBA6 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033417931F7BB93B00F7CBA6 /* WelcomeVC.swift */; };
 		033417971F7BB93B00F7CBA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 033417951F7BB93B00F7CBA6 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		030A02EB1F7CD3FE0061F669 /* LeagueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueVC.swift; sourceTree = "<group>"; };
+		030A02ED1F7CD40F0061F669 /* SkillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillVC.swift; sourceTree = "<group>"; };
 		0334178E1F7BB93B00F7CBA6 /* app-swoosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-swoosh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		033417911F7BB93B00F7CBA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		033417931F7BB93B00F7CBA6 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
@@ -41,6 +45,8 @@
 			isa = PBXGroup;
 			children = (
 				033417931F7BB93B00F7CBA6 /* WelcomeVC.swift */,
+				030A02EB1F7CD3FE0061F669 /* LeagueVC.swift */,
+				030A02ED1F7CD40F0061F669 /* SkillVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -165,6 +171,8 @@
 			files = (
 				033417941F7BB93B00F7CBA6 /* WelcomeVC.swift in Sources */,
 				033417921F7BB93B00F7CBA6 /* AppDelegate.swift in Sources */,
+				030A02EC1F7CD3FE0061F669 /* LeagueVC.swift in Sources */,
+				030A02EE1F7CD40F0061F669 /* SkillVC.swift in Sources */,
 				033417A51F7BBDC300F7CBA6 /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
